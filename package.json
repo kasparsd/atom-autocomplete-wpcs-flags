@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete-wpcs-flags",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Autocomplete for the WordPress Coding Standard (WPCS) whitelist flags.",
+  "keywords": [
+    "autocomplete",
+    "wordpress",
+    "wpcs",
+    "phpcs"
+  ],
+  "repository": "https://github.com/kasparsd/atom-autocomplete-wpcs-flags",
+  "author": "Kaspars Dambis <hi@kaspars.net> (https://kaspars.net)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
