@@ -1,7 +1,6 @@
 [
 	"slow query",
 	"db call",
-	"tax_query",
 	"input var",
 	"loose comparison",
 	"unprepared SQL",
